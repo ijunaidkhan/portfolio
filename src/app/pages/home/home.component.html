@@ -1,31 +1,18 @@
 <header class="bg-white dark:bg-gray-900 dark:text-white p-8" id="home">
-    <div class="container mx-auto grid h-full gap-10 min-h-[60vh] w-full grid-cols-1 items-center lg:grid-cols-2">
+    <div class="container mx-auto grid h-full gap-10 min-h-[60vh] w-full grid-cols-1 items-center">
         <div class="row-start-2 lg:row-auto">
             <h1
-                class="block antialiased tracking-normal font-sans font-semibold text-blue-gray-900 mb-4 lg:text-5xl !leading-tight text-3xl">
+                class="block text-center text-white antialiased tracking-normal font-sans font-semibold mb-4 lg:text-5xl !leading-tight text-3xl">
                 Welcome to my Web <br> Development Portofolio!</h1>
             <p
-                class="block antialiased font-sans text-xl font-normal leading-relaxed text-inherit mb-4 !text-gray-500 md:pr-16 xl:pr-28">
-                I'm Lily Smith, a passionate web developer based in USA. Here, you'll get a glimpse of my journey in the
-                world of web development, where creativity meets functionality.</p>
-            <div class="grid">
-                <p class="block antialiased font-sans text-sm leading-normal mb-2 text-gray-900 font-medium">Your email
-                </p>
-                <div class="mb-2 flex w-full flex-col gap-4 md:w-10/12 md:flex-row">
-                    <div class="relative w-full min-w-[200px] h-11"><input
-                            class="peer w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50 disabled:border-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 border focus:border-2 border-t-transparent focus:border-t-transparent text-sm px-3 py-3 rounded-md border-blue-gray-200 focus:border-gray-900"
-                            placeholder=" "><label
-                            class="flex w-full h-full select-none pointer-events-none absolute left-0 font-normal !overflow-visible truncate peer-placeholder-shown:text-blue-gray-500 leading-tight peer-focus:leading-tight peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500 transition-all -top-1.5 peer-placeholder-shown:text-sm text-[11px] peer-focus:text-[11px] before:content[' '] before:block before:box-border before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1 peer-placeholder-shown:before:border-transparent before:rounded-tl-md before:border-t peer-focus:before:border-t-2 before:border-l peer-focus:before:border-l-2 before:pointer-events-none before:transition-all peer-disabled:before:border-transparent after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1 peer-placeholder-shown:after:border-transparent after:rounded-tr-md after:border-t peer-focus:after:border-t-2 after:border-r peer-focus:after:border-r-2 after:pointer-events-none after:transition-all peer-disabled:after:border-transparent peer-placeholder-shown:leading-[4.1] text-gray-500 peer-focus:text-gray-900 before:border-blue-gray-200 peer-focus:before:!border-gray-900 after:border-blue-gray-200 peer-focus:after:!border-gray-900">Enter
-                            your email<!-- --> </label></div><button
-                        class=" dark:bg-white dark:text-gray-900 align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none w-full px-4 md:w-[12rem]"
-                        type="button">require offer</button>
-                </div>
-            </div>
-            <p class="block antialiased font-sans text-sm leading-normal text-inherit font-normal !text-gray-500">Read
-                my <a href="#" class="font-medium underline transition-colors">Terms and Conditions</a></p>
+                class="text-center backdrop-blur-none p-4 rounded-md block antialiased font-sans text-xl font-normal leading-relaxed text-inherit mb-4 text-white md:pr-16 xl:pr-28">
+                For the past 5 years, I’ve been turning ideas into pixel-perfect realities—building sleek, high-performing websites for
+                clients around the world. I don’t just write code; I craft digital experiences that captivate, inspire, and last. Ready
+                to transform your vision into a masterpiece? Let’s build something extraordinary together!.</p>
+           
         </div><img alt="team work" loading="lazy" width="1024" height="1024" decoding="async" data-nimg="1"
-            class="h-[36rem] w-full rounded-xl object-cover" style="color:transparent"
-            src="../../../assets/image-7.svg">
+            class="h-[36rem] w-full rounded-xl object-cover hidden" style="color:transparent"
+            src="../../../assets/hero-dark.jpg">
     </div>
 </header>
 
@@ -34,14 +21,14 @@
     <div class="container mx-auto grid w-full grid-cols-1 items-center gap-16 lg:grid-cols-2">
         <div class="col-span-1">
             <h2
-                class="block antialiased tracking-normal font-sans text-4xl font-semibold leading-[1.3] text-blue-gray-900">
+                class="block dark:text-white antialiased tracking-normal font-sans text-4xl font-semibold leading-[1.3] text-blue-gray-900">
                 My Resume</h2>
             <p
                 class="block antialiased font-sans text-base leading-relaxed text-inherit mb-4 mt-3 w-9/12 font-normal !text-gray-500">
                 Highly skilled and creative Web Developer with 5+ years of experience in crafting visually stunning and
                 functionally robust websites and web applications.</p><button href="/about" [routerLink]="['/about']"
-                class="dark:bg-white dark:text-gray-900 align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg text-gray-900 hover:bg-gray-900/10 active:bg-gray-900/20 flex items-center gap-2"
-                type="button">view more<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                class="dark:bg-white dark:text-gray-900 align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg text-gray-900  bg-gray-900/10 active:bg-gray-900/20 flex items-center gap-2"
+                type="button">Checkout my resume<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                     aria-hidden="true" stroke-width="3" class="h-3.5 w-3.5 text-gray-900">
                     <path fill-rule="evenodd"
                         d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
@@ -89,7 +76,7 @@
                 </div>
                 <p
                     class="block antialiased font-sans text-base leading-relaxed text-inherit w-full font-normal !text-gray-500">
-                    Frontend Framework Proficiency Certification</p>
+                    MEAN stack development Coursera Certification</p>
             </div>
         </div>
     </div>
@@ -259,7 +246,7 @@
 <section class="py-28 px-8 dark:bg-gray-900 dark:text-white" id="projects">
     <div class="container mx-auto mb-20 text-center">
         <h2
-            class="block antialiased tracking-normal font-sans text-4xl font-semibold leading-[1.3] text-blue-gray-900 mb-4">
+            class="block dark:text-white antialiased tracking-normal font-sans text-4xl font-semibold leading-[1.3] text-blue-gray-900 mb-4">
             My Projects
         </h2>
         <p
@@ -300,8 +287,8 @@
 <section class="px-8 py-16 dark:bg-gray-900 dark:text-white" id="contact">
     <div class="container mx-auto mb-20 text-center">
         <h1
-            class="block antialiased tracking-normal font-sans text-5xl font-semibold leading-tight text-blue-gray-900 mb-4">
-            Contact Us</h1>
+            class="block dark:text-white antialiased tracking-normal font-sans text-5xl font-semibold leading-tight text-blue-gray-900 mb-4">
+            Contact Me</h1>
         <p
             class="block antialiased font-sans text-xl font-normal leading-relaxed text-inherit mx-auto w-full lg:w-5/12 !text-gray-500">
             Ready to get started? Feel free to reach out through the contact form, and let's embark on a journey of
@@ -317,7 +304,7 @@
                         Contact Information</h4>
                     <p
                         class="block antialiased font-sans font-normal text-inherit mx-auto mb-8 text-base !text-gray-500">
-                        Fill up the form and our Team will get back to you within 24 hours.</p>
+                        Fill up the form and I will get back to you within 24 hours.</p>
                     <div class="flex gap-5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                             fill="currentColor" aria-hidden="true" class="h-6 w-6 text-white">
                             <path fill-rule="evenodd"
@@ -326,7 +313,7 @@
                         </svg>
                         <h6
                             class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-white mb-2">
-                            +1(424) 535 3523</h6>
+                            +92(333) 5750966</h6>
                     </div>
                     <div class="flex my-2 gap-5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                             fill="currentColor" aria-hidden="true" class="h-6 w-6 text-white">
@@ -339,18 +326,9 @@
                         </svg>
                         <h6
                             class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-white mb-2">
-                            hello@mail.com</h6>
+                            junaidmehmood67@mail.com</h6>
                     </div>
-                    <div class="flex mb-10 gap-5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                            fill="currentColor" aria-hidden="true" class="h-6 w-6 text-white">
-                            <path fill-rule="evenodd"
-                                d="M1.5 6.375c0-1.036.84-1.875 1.875-1.875h17.25c1.035 0 1.875.84 1.875 1.875v3.026a.75.75 0 01-.375.65 2.249 2.249 0 000 3.898.75.75 0 01.375.65v3.026c0 1.035-.84 1.875-1.875 1.875H3.375A1.875 1.875 0 011.5 17.625v-3.026a.75.75 0 01.374-.65 2.249 2.249 0 000-3.898.75.75 0 01-.374-.65V6.375zm15-1.125a.75.75 0 01.75.75v.75a.75.75 0 01-1.5 0V6a.75.75 0 01.75-.75zm.75 4.5a.75.75 0 00-1.5 0v.75a.75.75 0 001.5 0v-.75zm-.75 3a.75.75 0 01.75.75v.75a.75.75 0 01-1.5 0v-.75a.75.75 0 01.75-.75zm.75 4.5a.75.75 0 00-1.5 0V18a.75.75 0 001.5 0v-.75zM6 12a.75.75 0 01.75-.75H12a.75.75 0 010 1.5H6.75A.75.75 0 016 12zm.75 2.25a.75.75 0 000 1.5h3a.75.75 0 000-1.5h-3z"
-                                clip-rule="evenodd"></path>
-                        </svg>
-                        <h6
-                            class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-white mb-2">
-                            Open Support Ticket</h6>
-                    </div>
+               
                     <div class="flex items-center gap-5"><button
                             class="relative align-middle select-none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-10 max-w-[40px] h-10 max-h-[40px] rounded-lg text-xs text-white hover:bg-white/10 active:bg-white/30"
                             type="button"><span
